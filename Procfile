@@ -1,1 +1,1 @@
-web: gunicorn mutsa.wsgi --log-file -
+web: waitress-serve --port=$PORT mutsa.wsgi:application
