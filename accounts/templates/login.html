@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+
+{% if error %}
+    {{ error }}
+    <br>
+    <br>
+{% endif %}
+
+<h1>Login</h1>
+
+<!--{% block foo %}
+{% include social_login.html%}
+{% endblock %}-->
+
+<h1>hello</h1>
+<br/>
+
+    {% csrf_token %}
+    Username:
+    <br>
+    <input name="username" type="text" value="">
+    <br>
+    Password:
+    <br>
+    <input name="password" type="password" value="">
+    <br>
+    <br>
+    <input class="btn btn-primary" type="submit" value="Login">
+</form>
+
+{% endblock %}
