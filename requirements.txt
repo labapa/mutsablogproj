@@ -7,7 +7,6 @@ django-allauth==0.39.1
 django-crispy-forms==1.7.2
 gunicorn==19.9.0
 idna==2.8
-loginapp==0.1
 oauthlib==3.0.2
 Pillow==6.1.0
 psycopg2-binary==2.8.3
